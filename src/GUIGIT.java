@@ -43,11 +43,21 @@ public class GUIGIT extends JFrame {
 		JButton btnNewButton = new JButton("BOTON MASTER");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			
+				
 			}
 		});
 		btnNewButton.setBounds(252, 108, 143, 23);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("BOTON SOFIA");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+		 JOptionPane.showMessageDialog( btnNewButton_1,"HOLA DESDE RAMA SOFIA");
+			}
+			
+		});
+		btnNewButton_1.setBounds(26, 99, 143, 23);
+		contentPane.add(btnNewButton_1);
 
 	
 		
