@@ -49,6 +49,7 @@ public class GUIGIT extends JFrame {
 		btnNewButton.setBounds(252, 108, 143, 23);
 		contentPane.add(btnNewButton);
 		
+
 		JButton btnNewButton_1 = new JButton("BOTON SOFIA");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -59,10 +60,48 @@ public class GUIGIT extends JFrame {
 		btnNewButton_1.setBounds(26, 99, 143, 23);
 		contentPane.add(btnNewButton_1);
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		JButton btn_dani = new JButton("BOTON DANI");
+		btn_dani.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			JOptionPane.showMessageDialog( btn_dani,"HOLA DESDE RAMA DANIELA");	
+				
+			}
+		});
+		btn_dani.setBounds(20, 22, 149, 20);
+		contentPane.add(btn_dani);
+
+
 	
 		
 		JButton btnjana = new JButton("BOTON HANNAH");
-		btnNewButton.addActionListener(new ActionListener() {
+		btnjana.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			JOptionPane.showMessageDialog(btnjana, "Esta es la rama de Hannah probando 123...");
 				
