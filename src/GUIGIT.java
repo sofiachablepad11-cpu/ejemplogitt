@@ -1,6 +1,7 @@
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
@@ -47,6 +48,16 @@ public class GUIGIT extends JFrame {
 		});
 		btnNewButton.setBounds(26, 62, 143, 23);
 		contentPane.add(btnNewButton);
+		
+		JButton btn_dani = new JButton("BOTON DANI");
+		btn_dani.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			JOptionPane.showMessageDialog( btn_dani,"HOLA DESDE RAMA DANIELA");	
+				
+			}
+		});
+		btn_dani.setBounds(20, 22, 149, 20);
+		contentPane.add(btn_dani);
 
 	}
 }
