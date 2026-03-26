@@ -1,5 +1,5 @@
 import java.awt.EventQueue;
-
+ 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -7,12 +7,12 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+ 
 public class GUIGIT extends JFrame {
-
+ 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-
+ 
 	/**
 	 * Launch the application.
 	 */
@@ -28,7 +28,7 @@ public class GUIGIT extends JFrame {
 			}
 		});
 	}
-
+ 
 	/**
 	 * Create the frame.
 	 */
@@ -43,46 +43,13 @@ public class GUIGIT extends JFrame {
 		JButton btnNewButton = new JButton("BOTON MASTER");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			
+				
 			}
 		});
 		btnNewButton.setBounds(252, 108, 143, 23);
 		contentPane.add(btnNewButton);
 		
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		JButton btn_dani = new JButton("BOTON DANI");
-		btn_dani.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			JOptionPane.showMessageDialog( btn_dani,"HOLA DESDE RAMA DANIELA");	
-				
-			}
-		});
-		btn_dani.setBounds(20, 22, 149, 20);
-		contentPane.add(btn_dani);
-
+ 
 		JButton btnNewButton_1 = new JButton("BOTON SOFIA");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -92,25 +59,13 @@ public class GUIGIT extends JFrame {
 		});
 		btnNewButton_1.setBounds(26, 99, 143, 23);
 		contentPane.add(btnNewButton_1);
-
+ 
 		
 		
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+ 
 		
 		
 		
@@ -118,9 +73,17 @@ public class GUIGIT extends JFrame {
 		
 		
 	
-
-
-
+		JButton btn_dani = new JButton("BOTON DANI");
+		btn_dani.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			JOptionPane.showMessageDialog( btn_dani,"HOLA DESDE RAMA DANIELA");	
+				
+			}
+		});
+		btn_dani.setBounds(20, 22, 149, 20);
+		contentPane.add(btn_dani);
+ 
+ 
 	
 		
 		JButton btnjana = new JButton("BOTON HANNAH");
@@ -132,7 +95,7 @@ public class GUIGIT extends JFrame {
 		});
 		btnjana.setBounds(30, 204, 143, 23);
 		contentPane.add(btnjana);
-
+ 
 	
 		
 	}
