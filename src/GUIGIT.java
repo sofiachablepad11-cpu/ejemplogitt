@@ -46,7 +46,7 @@ public class GUIGIT extends JFrame {
 				
 			}
 		});
-		btnNewButton.setBounds(26, 62, 143, 23);
+		btnNewButton.setBounds(252, 108, 143, 23);
 		contentPane.add(btnNewButton);
 		
 
@@ -84,5 +84,19 @@ public class GUIGIT extends JFrame {
 		contentPane.add(btn_dani);
 
 
+	
+		
+		JButton btnjana = new JButton("BOTON HANNAH");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			JOptionPane.showMessageDialog(btnjana, "Esta es la rama de Hannah probando 123...");
+				
+			}
+		});
+		btnjana.setBounds(30, 204, 143, 23);
+		contentPane.add(btnjana);
+
+	
+		
 	}
 }
