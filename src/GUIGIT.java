@@ -46,7 +46,7 @@ public class GUIGIT extends JFrame {
 			
 			}
 		});
-		btnNewButton.setBounds(30, 29, 143, 23);
+		btnNewButton.setBounds(252, 108, 143, 23);
 		contentPane.add(btnNewButton);
 
 	
