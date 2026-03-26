@@ -52,7 +52,7 @@ public class GUIGIT extends JFrame {
 	
 		
 		JButton btnjana = new JButton("BOTON HANNAH");
-		btnNewButton.addActionListener(new ActionListener() {
+		btnjana.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			JOptionPane.showMessageDialog(btnjana, "Esta es la rama de Hannah probando 123...");
 				
