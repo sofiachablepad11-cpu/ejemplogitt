@@ -1,6 +1,7 @@
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
@@ -45,8 +46,22 @@ public class GUIGIT extends JFrame {
 			
 			}
 		});
-		btnNewButton.setBounds(26, 62, 143, 23);
+		btnNewButton.setBounds(30, 29, 143, 23);
 		contentPane.add(btnNewButton);
 
+	
+		
+		JButton btnjana = new JButton("BOTON HANNAH");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			JOptionPane.showMessageDialog(btnjana, "Esta es la rama de Hannah probando 123...");
+				
+			}
+		});
+		btnjana.setBounds(30, 204, 143, 23);
+		contentPane.add(btnjana);
+
+	
+		
 	}
 }
