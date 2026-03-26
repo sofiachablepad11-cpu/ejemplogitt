@@ -49,6 +49,29 @@ public class GUIGIT extends JFrame {
 		btnNewButton.setBounds(26, 62, 143, 23);
 		contentPane.add(btnNewButton);
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		JButton btn_dani = new JButton("BOTON DANI");
 		btn_dani.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
