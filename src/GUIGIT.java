@@ -49,7 +49,7 @@ public class GUIGIT extends JFrame {
 		btnNewButton.setBounds(26, 62, 143, 23);
 		contentPane.add(btnNewButton);
 		
-<<<<<<< HEAD
+
 		JButton btnNewButton_1 = new JButton("BOTON SOFIA");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -59,14 +59,20 @@ public class GUIGIT extends JFrame {
 		});
 		btnNewButton_1.setBounds(26, 99, 143, 23);
 		contentPane.add(btnNewButton_1);
+
+		
+		
+		
+		
+		
+
 		
 		
 		
 		
 		
 		
-		
-=======
+	
 		JButton btn_dani = new JButton("BOTON DANI");
 		btn_dani.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -76,7 +82,7 @@ public class GUIGIT extends JFrame {
 		});
 		btn_dani.setBounds(20, 22, 149, 20);
 		contentPane.add(btn_dani);
->>>>>>> refs/remotes/origin/RAMA_DANIELA
+
 
 	}
 }
